@@ -8,5 +8,5 @@ venue: 'Chinese Journal of Geophysics(in Chinese)'
 citation: 'HE XiJun, YANG DingHui, QIU ChuJun,  Chang Yunfan.(2021). &quot; <i>Chinese Journal of Geophysics(in Chinese)</i>. 64(3): 876-895.'
 ---
 
-[Download paper here](http://changyf98.github.io/files/dalembert.pdf)
+[Download paper here](https://github.com/changyf98/changyf98.github.io/blob/master/files/dalembert.pdf)
 
