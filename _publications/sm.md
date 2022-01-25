@@ -1,7 +1,7 @@
 ---
 title: "A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D'Alembert media on unstructured meshes"
 collection: publications
-permalink: /publication/1
+permalink: /publication/sm
 excerpt: 'This paper is about the discontinuous galerkin method.'
 date: 2021
 venue: 'Chinese Journal of Geophysics(in Chinese)'
