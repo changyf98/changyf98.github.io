@@ -8,5 +8,5 @@ venue: 'Chinese Journal of Geophysics(in Chinese)'
 citation: 'HE XiJun, YANG DingHui, QIU ChuJun,  Chang Yunfan.(2021). &quot; <i>Chinese Journal of Geophysics(in Chinese)</i>. 64(3): 876-895.'
 ---
 
-[Download paper here](http://changyf98.github.io/files/基于非结构网格求解三维D'Alembert介质中声波方程的并行加权Runge-Kutta间断有限元方法.pdf)
+[Download paper here](http://changyf98.github.io/files/dalembert.pdf)
 
