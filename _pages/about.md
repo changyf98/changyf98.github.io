@@ -17,4 +17,11 @@ My research interests mainly lie in **A Deep Learning Based Discontinuous Galerk
 Indeed, My main concern is how to use deep learning to accelerate the computational speed of Discontinuous Galerkin method.
 
 # Publications
-* [1. ](http://manu39.magtech.com.cn/Geophy/CN/abstract/abstract15778.shtml)HE XiJun, YANG DingHui, QIU ChuJun, **Chang Yunfan**. "A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D'Alembert media on unstructured meshes". Chinese Journal of Geophysics(in Chinese). 64(3): 876-895. .
+* [1. ](http://manu39.magtech.com.cn/Geophy/CN/abstract/abstract15778.shtml)HE XiJun, YANG DingHui, QIU ChuJun, **Chang Yunfan**. "A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D'Alembert media on unstructured meshes". Chinese Journal of Geophysics(in Chinese). 64(3): 876-895.
+
+# Honors and Awards
+* Tsinghua University Postgraduate Comprehensive Scholarship. <br> Tsinghua University (2021).
+* Alibaba Global Mathematics Competition final.<br> Alibaba Damo Academy (2021).
+* Outstanding Student Scholarship for four years. University of Science and Technology of China (2016-2020).
+* First prize of National Mathematics Competition (Mathematics major) for College Students. University of Science and Technology of China (2018).
+* First prize of National High School Mathematics League. Tianjin No.1 Middle School (2016).
