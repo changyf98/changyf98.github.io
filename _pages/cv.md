@@ -9,32 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
+[Chinese CV pdf download](https://github.com/changyf98/changyf98.github.io/raw/master/files/cyf2021summer.pdf)
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in School of Mathematical Science,University of Science and Technology of China, 2020
+* Ph.D in Department of computational Mathematics, Tsinghua University, 2025 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2021: Data Analysis
+  * Data Analysis Department, 快手
+  * Duties included: AB Test; Causal Inference; Live streaming, consumption, short video data analysis
+  * Supervisor: Jingci Meng
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Spring 2021: teacher
+  * 英才计划, 新东方北京学校
+  * Duties included: High school math competition
+  * Supervisor: Yu Zhu
 
 Publications
 ======
@@ -54,6 +46,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
