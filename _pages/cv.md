@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Chinese CV pdf download](https://github.com/changyf98/changyf98.github.io/raw/master/files/cyf2021summer.pdf)
+[Chinese CV pdf download](https://github.com/changyf98/changyf98.github.io/raw/master/files/cyf2021summer.pdf)(2021 Summer)
 
 Education
 ======
