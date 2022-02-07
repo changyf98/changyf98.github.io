@@ -21,7 +21,7 @@ Indeed, My main concern is how to use deep learning to accelerate the computatio
 * **PhD**: Algorithm Analysis and Design, Advanced Numerical Analysis, Big Data and Computing, Fundamentals of machine learning, Finite Element Methods, Modern Optimization Methods, Difference methods, Inverse problem theory and Applications, Deep learning, etc
 
 # Publications
-[1. ](http://manu39.magtech.com.cn/Geophy/CN/abstract/abstract15778.shtml)HE XiJun, YANG DingHui, QIU ChuJun, **Chang Yunfan**. "A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D'Alembert media on unstructured meshes". Chinese Journal of Geophysics(in Chinese). 64(3): 876-895.
+[1. HE XiJun, YANG DingHui, QIU ChuJun, **Chang YunFan**. "A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D'Alembert media on unstructured meshes". Chinese Journal of Geophysics(in Chinese). 64(3): 876-895.](http://manu39.magtech.com.cn/Geophy/CN/abstract/abstract15778.shtml)
 
 # Honors and Awards
 * Tsinghua University Postgraduate Comprehensive Scholarship. <br> Tsinghua University (2021).
