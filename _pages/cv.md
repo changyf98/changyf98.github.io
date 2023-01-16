@@ -17,17 +17,17 @@ Education
 
 Internship
 ======
-* Summer 2022: Quantitative Research
+* 2022.5 ~ 2022.12: Quantitative Research
   * Lingjun Investment, CTA
   * Duties included: Stock Index Futures, High-frequency commodity futures, Low-frequency commodity futures
   * Supervisor: Zhe Li
 
-* Summer 2021: Data Analysis
+* 2021.6 ~ 2021.12: Data Analysis
   * Data Analysis Department, 快手
   * Duties included: AB Test; Causal Inference; Live streaming, consumption, short video data analysis
   * Supervisor: Jingci Meng
 
-* Spring 2021: teacher
+* 2021.2 ~ 2021.8: teacher
   * 英才计划, 新东方北京学校
   * Duties included: High school math competition
   * Supervisor: Yu Zhu
