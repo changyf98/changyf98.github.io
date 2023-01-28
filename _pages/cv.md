@@ -18,7 +18,7 @@ Education
 Internship
 ======
 * 2022.5 ~ 2022.12: Quantitative Research
-  * Lingjun Investment, CTA
+  * CTA, 灵均投资
   * Duties included: Stock Index Futures, High-frequency commodity futures, Low-frequency commodity futures
   * Supervisor: Zhe Li
 
