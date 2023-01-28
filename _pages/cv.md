@@ -31,6 +31,15 @@ Internship
   * 英才计划, 新东方北京学校
   * Duties included: High school math competition
   * Supervisor: Yu Zhu
+  
+Honors and Awards
+======
+* Excellent teaching assistant. Tsinghua University （2022）
+* Tsinghua University Postgraduate Comprehensive Scholarship. <br> Tsinghua University (2021).
+* Alibaba Global Mathematics Competition final. <br> Alibaba Damo Academy (2021).
+* Outstanding Student Scholarship for four years. <br> University of Science and Technology of China (2016-2020).
+* First prize of National Mathematics Competition (Mathematics major) for College Students. <br> University of Science and Technology of China (2018).
+* First prize of National High School Mathematics League. <br> Tianjin No.1 Middle School (2016).
 
 Publications
 ======
