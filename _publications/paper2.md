@@ -1,7 +1,7 @@
 ---
 title: "Wavefield simulation with the discontinuous Galerkin method for poroelastic wave equation in triple-porosity media"
 collection: publications
-permalink: /publication/sm
+permalink: /publication/paper2
 excerpt: 'This paper is about the discontinuous galerkin method.'
 date: 2022-8-1
 venue: 'GEOPHYSICS'
