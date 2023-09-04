@@ -17,6 +17,11 @@ Education
 
 Internship
 ======
+* 2023.7 ~ Now: Quantitative Research
+  * High-frequency CTA, 世纪前沿
+  * Duties included: High-frequency commodity futures
+  * Supervisor: Chen Lv
+
 * 2022.5 ~ 2022.12: Quantitative Research
   * CTA, 灵均投资
   * Duties included: Stock Index Futures, High-frequency commodity futures, Low-frequency commodity futures
