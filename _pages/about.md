@@ -21,9 +21,10 @@ Indeed, My main concern is how to use deep learning to accelerate the computatio
 * **PhD**: Algorithm Analysis and Design, Advanced Numerical Analysis, Big Data and Computing, Fundamentals of machine learning, Finite Element Methods, Modern Optimization Methods, Difference methods, Inverse problem theory and Applications, Deep learning, etc
 
 # Publications
-[1. HE XiJun, YANG DingHui, QIU ChuJun, **Chang YunFan**. "A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D'Alembert media on unstructured meshes". Chinese Journal of Geophysics(in Chinese). 64(3): 876-895.](http://en.dzkx.org/article/doi/10.6038/cjg2021O0226)
+[2. Jiandong Huang, Dinghui Yang, Xijun He, and Yunfan Chang. "Wavefield simulation with the discontinuous Galerkin method for poroelastic wave equation in triple-porosity media". GEOPHYSICS 2023 88:3, T121-T135.](https://library.seg.org/doi/10.1190/geo2022-0497.1)
 
-[2. JiandongHuang and DinghuiYang and **YunfanChang**. "Wavefield simulation with the discontinuous Galerkin method for poroelastic wave equation in triple-porosity media". GEOPHYSICS.](https://library.seg.org/doi/10.1190/geo2022-0497.1)
+[1. HE XiJun, YANG DingHui, QIU ChuJun, ZHOU YanJie, CHANG YunFan. 2021. A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D'Alembert media on unstructured meshes. Chinese Journal of Geophysics (in Chinese), 64(3): 876-895.]
+(http://en.dzkx.org/article/doi/10.6038/cjg2021O0226)
 
 # Honors and Awards
 * Excellent teaching assistant. Tsinghua University （2022）
