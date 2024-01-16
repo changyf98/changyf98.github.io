@@ -19,9 +19,9 @@ redirect_from:
 * 博士：算法分析与设计、高等数值分析、大数据和计算、机器学习基础、有限元方法、现代优化方法、差分方法、反问题理论及应用、深度学习等
 
 ## 发表文章
-[2. ](https://library.seg.org/doi/10.1190/geo2022-0497.1)Jiandong Huang, Dinghui Yang, Xijun He, and Yunfan Chang. “Wavefield simulation with the discontinuous Galerkin method for poroelastic wave equation in triple-porosity media”. GEOPHYSICS 2023 88:3, T121-T135.
+[2. Jiandong Huang, Dinghui Yang, Xijun He, and Yunfan Chang. “Wavefield simulation with the discontinuous Galerkin method for poroelastic wave equation in triple-porosity media”. GEOPHYSICS 2023 88:3, T121-T135.](https://library.seg.org/doi/10.1190/geo2022-0497.1)
 
-[1. ](http://manu39.magtech.com.cn/Geophy/CN/abstract/abstract15778.shtml)HE XiJun, YANG DingHui, QIU ChuJun, ZHOU YanJie, CHANG YunFan. 2021. A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D’Alembert media on unstructured meshes. Chinese Journal of Geophysics (in Chinese), 64(3): 876-895.
+[1. HE XiJun, YANG DingHui, QIU ChuJun, ZHOU YanJie, CHANG YunFan. 2021. A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D’Alembert media on unstructured meshes. Chinese Journal of Geophysics (in Chinese), 64(3): 876-895.](http://manu39.magtech.com.cn/Geophy/CN/abstract/abstract15778.shtml)
 
 ## 荣誉及奖项
 * 清华大学杰出助教， 清华大学(2022)
