@@ -4,7 +4,7 @@ title: "常芸凡"
 author_profile: true
 redirect_from: 
   - /md/
-  - /markdown.html
+  - /chinese.html
 ---
 
 本人目前在[清华大学](https://www.tsinghua.edu.cn/)[数学系](https://math.tsinghua.edu.cn/)攻读计算数学博士学位，导师为[杨顶辉教授](https://baike.baidu.com/item/%E6%9D%A8%E9%A1%B6%E8%BE%89/5347265?fr=aladdin)。
