@@ -4,7 +4,7 @@ title: "常芸凡"
 author_profile: true
 redirect_from: 
   - /md/
-  - /markdown.html
+  - /chinese.html
 ---
 
 本人目前在[清华大学](https://www.tsinghua.edu.cn/)[数学系](https://math.tsinghua.edu.cn/)攻读计算数学博士学位，导师为[杨顶辉教授](https://baike.baidu.com/item/%E6%9D%A8%E9%A1%B6%E8%BE%89/5347265?fr=aladdin)。
@@ -19,9 +19,9 @@ redirect_from:
 * 博士：算法分析与设计、高等数值分析、大数据和计算、机器学习基础、有限元方法、现代优化方法、差分方法、反问题理论及应用、深度学习等
 
 ## 发表文章
-[1. ](http://manu39.magtech.com.cn/Geophy/CN/abstract/abstract15778.shtml)HE XiJun, YANG DingHui, QIU ChuJun, **Chang Yunfan**. "A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D'Alembert media on unstructured meshes". Chinese Journal of Geophysics(in Chinese). 64(3): 876-895.
+[2. ](https://library.seg.org/doi/10.1190/geo2022-0497.1)Jiandong Huang, Dinghui Yang, Xijun He, and Yunfan Chang. “Wavefield simulation with the discontinuous Galerkin method for poroelastic wave equation in triple-porosity media”. GEOPHYSICS 2023 88:3, T121-T135.
 
-[2. ](https://library.seg.org/doi/10.1190/geo2022-0497.1)JiandongHuang  and  DinghuiYang  and  XijunHe  and  **YunfanChang**."Wavefield simulation with the discontinuous Galerkin method for poroelastic wave equation in triple-porosity media". GEOPHYSICS.
+[1. ](http://manu39.magtech.com.cn/Geophy/CN/abstract/abstract15778.shtml)HE XiJun, YANG DingHui, QIU ChuJun, ZHOU YanJie, CHANG YunFan. 2021. A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D’Alembert media on unstructured meshes. Chinese Journal of Geophysics (in Chinese), 64(3): 876-895.
 
 ## 荣誉及奖项
 * 清华大学杰出助教， 清华大学(2022)
