@@ -21,6 +21,8 @@ Indeed, My main concern is how to use deep learning to accelerate the computatio
 * **PhD**: Algorithm Analysis and Design, Advanced Numerical Analysis, Big Data and Computing, Fundamentals of machine learning, Finite Element Methods, Modern Optimization Methods, Difference methods, Inverse problem theory and Applications, Deep learning, etc
 
 # Publications
+[3. Yunfan Chang, Dinghui Yang, and Xijun He. "A robust numerical method based on deep learning operator for solving the 2D acoustic wave equation," GEOPHYSICS 2024, 89(4): 1-50.](https://library.seg.org/doi/abs/10.1190/geo2023-0622.1)
+
 [2. Jiandong Huang, Dinghui Yang, Xijun He, and Yunfan Chang. "Wavefield simulation with the discontinuous Galerkin method for poroelastic wave equation in triple-porosity media". GEOPHYSICS 2023 88:3, T121-T135.](https://library.seg.org/doi/10.1190/geo2022-0497.1)
 
 [1. HE XiJun, YANG DingHui, QIU ChuJun, ZHOU YanJie, CHANG YunFan. 2021. A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D'Alembert media on unstructured meshes. Chinese Journal of Geophysics (in Chinese), 64(3): 876-895.](http://en.dzkx.org/article/doi/10.6038/cjg2021O0226)
