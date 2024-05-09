@@ -9,8 +9,8 @@ main:
   - title: "Photographs"
     url: /photos/
     
-  - title: "Blog"
-    url: /post/   
+  - title: "Blog Posts"
+    url: /year-archive/
     
   - title: "CV&Contact"
     url: /cv/
