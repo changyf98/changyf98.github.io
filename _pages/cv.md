@@ -18,8 +18,8 @@ Education
 Internship
 ======
 * 2023.7 ~ Now: Quantitative Research
-  * High-frequency CTA, 世纪前沿
-  * Duties included: High-frequency commodity futures
+  * High-frequency trading, 世纪前沿
+  * Duties included: High-frequency futures and crypto
   * Supervisor: Chen Lv
 
 * 2022.5 ~ 2022.12: Quantitative Research
