@@ -40,7 +40,7 @@ Internship
 Honors and Awards
 ======
 * Excellent teaching assistant. Tsinghua University （2022）
-* Tsinghua University Postgraduate Comprehensive Scholarship. <br> Tsinghua University (2021).
+* Tsinghua University Postgraduate Comprehensive Scholarship. <br> Tsinghua University (2021,2024).
 * Alibaba Global Mathematics Competition final. <br> Alibaba Damo Academy (2021).
 * Outstanding Student Scholarship for four years. <br> University of Science and Technology of China (2016-2020).
 * First prize of National Mathematics Competition (Mathematics major) for College Students. <br> University of Science and Technology of China (2018).
