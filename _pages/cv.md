@@ -87,7 +87,7 @@ Honors and Awards
     .award-item::before {
       content: "•";
       position: absolute;
-      left: -30px;
+      left: -15px;
       color: #333;
     }
     .award-name {
