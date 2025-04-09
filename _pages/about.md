@@ -41,4 +41,19 @@ Indeed, My main concern is how to use deep learning to accelerate the computatio
   </div>
   <!-- 其他奖项 -->
 </div>
-
+<style>
+  .awards-container {
+    font-family: Arial, sans-serif;
+  }
+  .award-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  .award-name {
+    flex: 1;
+  }
+  .award-year {
+    color: #666;
+  }
+</style>
