@@ -28,9 +28,62 @@ redirect_from:
 [1. HE XiJun, YANG DingHui, QIU ChuJun, ZHOU YanJie, CHANG YunFan. 2021. A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D’Alembert media on unstructured meshes. Chinese Journal of Geophysics (in Chinese), 64(3): 876-895.](http://manu39.magtech.com.cn/Geophy/CN/abstract/abstract15778.shtml)
 
 ## 荣誉及奖项
-* 清华大学杰出助教， 清华大学(2022)
-* 清华大学研究生综合奖学金，清华大学(2021,2024);
-* 阿里巴巴全球数学竞赛决赛，阿里达摩院(2021);
-* 本科连续四年学业优秀奖学金，中国科学技术大学(2016-2020);
-* 全国大学生数学竞赛(数学类)一等奖，中国科学技术大学(2018);
-* 全国高中数学竞赛一等奖，天津市第一中学(2016).
+<div class="awards-container">
+  <div class="award-item">
+    <span class="award-name">清华大学赵访熊奖学金</span>
+    <span class="award-year">2025</span>
+  </div>
+  <div class="award-item">
+    <span class="award-name">清华大学综合一等奖学金</span>
+    <span class="award-year">2024</span>
+  </div>
+  <div class="award-item">
+    <span class="award-name">清华大学杰出助教</span>
+    <span class="award-year">2022</span>
+  </div>
+  <div class="award-item">
+    <span class="award-name">清华大学综合二等奖学金</span>
+    <span class="award-year">2021</span>
+  </div>
+  <div class="award-item">
+    <span class="award-name">本科连续四年学业优秀奖学金，中国科学技术大学</span>
+    <span class="award-year">2016-2020</span>
+  </div>
+  <div class="award-item">
+    <span class="award-name">全国大学生数学竞赛(数学类)一等奖，中国科学技术大学</span>
+    <span class="award-year">2018</span>
+  </div>
+  <div class="award-item">
+    <span class="award-name">全国高中数学竞赛一等奖，天津市第一中学</span>
+    <span class="award-year">2016</span>
+  </div>
+  <!-- 其他奖项 -->
+</div>
+  <style>
+    .awards-container {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding-left: 20px;
+    }
+    .award-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      position: relative;
+      list-style-type: none;
+    }
+    .award-item::before {
+      content: "•";
+      position: absolute;
+      left: -15px;
+      color: #333;
+    }
+    .award-name {
+      flex: 1;
+    }
+    .award-year {
+      color: #666;
+    }
+  </style>
+
