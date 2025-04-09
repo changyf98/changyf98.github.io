@@ -30,9 +30,13 @@ Indeed, My main concern is how to use deep learning to accelerate the computatio
 [1. HE XiJun, YANG DingHui, QIU ChuJun, ZHOU YanJie, CHANG YunFan. 2021. A parallel weighted Runge-Kutta discontinuous galerkin method for solving acousitc wave equations in 3D D'Alembert media on unstructured meshes. Chinese Journal of Geophysics (in Chinese), 64(3): 876-895.](http://en.dzkx.org/article/doi/10.6038/cjg2021O0226)
 
 # Honors and Awards
-* Excellent teaching assistant. Tsinghua University （2022）
-* Tsinghua University Postgraduate Comprehensive Scholarship. <br> Tsinghua University (2021,2024).
-* Alibaba Global Mathematics Competition final. <br> Alibaba Damo Academy (2021).
-* Outstanding Student Scholarship for four years. <br> University of Science and Technology of China (2016-2020).
-* First prize of National Mathematics Competition (Mathematics major) for College Students. <br> University of Science and Technology of China (2018).
-* First prize of National High School Mathematics League. <br> Tianjin No.1 Middle School (2016).
+| Award | Year |
+|-------|------|
+| Zhao Fangxiong Scholarship of Tsinghua University | 2025 |
+| Tsinghua University Postgraduate Comprehensive Scholarship, First Prize | 2024 |
+| Excellent teaching assistant, Tsinghua University | 2022 |
+| Tsinghua University Postgraduate Comprehensive Scholarship, Second Prize | 2021 |
+| Alibaba Global Mathematics Competition final, Alibaba Damo Academy | 2021 |
+| Outstanding Student Scholarship for four years, University of Science and Technology of China | 2016-2020 |
+| First prize of National Mathematics Competition (Mathematics major) for College Students, University of Science and Technology of China | 2018 |
+| First prize of National High School Mathematics League, Tianjin No.1 Middle School | 2016 |
