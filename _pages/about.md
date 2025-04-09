@@ -39,21 +39,52 @@ Indeed, My main concern is how to use deep learning to accelerate the computatio
     <span class="award-name">Tsinghua University Postgraduate Comprehensive Scholarship, First Prize</span>
     <span class="award-year">2024</span>
   </div>
+  <div class="award-item">
+    <span class="award-name">Excellent Teaching Assistant of Tsinghua University</span>
+    <span class="award-year">2022</span>
+  </div>
+  <div class="award-item">
+    <span class="award-name">Tsinghua University Postgraduate Comprehensive Scholarship, Second Prize</span>
+    <span class="award-year">2021</span>
+  </div>
+  <div class="award-item">
+    <span class="award-name">Outstanding Student Scholarship for four years, University of Science and Technology of China</span>
+    <span class="award-year">2016-2020</span>
+  </div>
+  <div class="award-item">
+    <span class="award-name">First prize of National Mathematics Competition (Mathematics major) for College Students, University of Science and Technology of China</span>
+    <span class="award-year">2018</span>
+  </div>
+  <div class="award-item">
+    <span class="award-name">First prize of National High School Mathematics League, Tianjin No.1 Middle School</span>
+    <span class="award-year">2016</span>
+  </div>
   <!-- 其他奖项 -->
 </div>
-<style>
-  .awards-container {
-    font-family: Arial, sans-serif;
-  }
-  .award-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 8px;
-  }
-  .award-name {
-    flex: 1;
-  }
-  .award-year {
-    color: #666;
-  }
-</style>
+  <style>
+    .awards-container {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding-left: 20px;
+    }
+    .award-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      position: relative;
+      list-style-type: none;
+    }
+    .award-item::before {
+      content: "•";
+      position: absolute;
+      left: -15px;
+      color: #333;
+    }
+    .award-name {
+      flex: 1;
+    }
+    .award-year {
+      color: #666;
+    }
+  </style>
