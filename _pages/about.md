@@ -8,16 +8,14 @@ redirect_from:
   - /about.html
 ---
 # Education
-* Ph.D. in Mathematics, [Tsinghua University](https://www.tsinghua.edu.cn/), 2025
-
-Supervisors: Prof. [Dinghui Yang](https://baike.baidu.com/item/%E6%9D%A8%E9%A1%B6%E8%BE%89/5347265)
-
+* Ph.D. in Mathematics, [Tsinghua University](https://www.tsinghua.edu.cn/), 2025. Supervisors: Prof. [Dinghui Yang](https://baike.baidu.com/item/%E6%9D%A8%E9%A1%B6%E8%BE%89/5347265)<br>
 * B.Sc. in Mathematics, [University of Science and Technology of China](http://www.ustc.edu.cn/
 ), 2020
 
 # Research
-My research interests mainly lie in **Deep Learning for solving partial differential equations**, but also include convex optimazation, deep learning, partial differential numerical solutions and **quantitative trading**. <br>
-Indeed, My main concern is how to use deep learning to accelerate the computational speed of traditional numerical format for partial differential equations. **My personal interest is to explore market rules in a quantitative way**.
+**My personal interest is to explore market rules in a quantitative way**.<br>
+My research interests in Tsinghua University mainly lie in **Deep Learning for solving partial differential equations**, but also include convex optimazation, deep learning, partial differential numerical solutions and **quantitative trading**. <br>
+Indeed, My main concern is how to use deep learning to accelerate the computational speed of traditional numerical format for partial differential equations. 
 
 # Course
 * **undergraduate course**: c language, mathematical analysis, algebra, linear algebra, data structure and database, real analysis, differential equations, complex analysis, functional analysis, modern algebra, combinatorics, probability theory, mathematical statistics, stochastic process, numerical algebra, operations research, management science, economics, etc., the math classes are top grades;
