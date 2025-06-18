@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yunfan Chang"
 title_separator          : "-"
 name                     : &name "Yunfan Chang"
-description              : &description "PhD student in Department of Mathematics, Tsinghua University"
+description              : &description "Quantitative Researcher"
 url                      : https://changyf98.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "changyf98/changyf98.github.io"
@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Yunfan Chang"
   avatar           : "avata.png"
-  bio              : "PhD student in Department of Mathematics, Tsinghua University"
-  location         : "Beijing, China"
+  bio              : "Quantitative Researcher"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : 
-  googlescholar    : https://scholar.google.com/citations?user=CQo-FM8AAAAJ&hl=zh-CN
-  email            : "changyf20@mails.tsinghua.edu.cn"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=CQo-FM8AAAAJ&hl=zh-CN"
+  email            : "1479431721@qq.com"
+  researchgate     : "https://www.researchgate.net/profile/Yunfan-Chang-2?ev=hdr_xprf"
   uri              :
   bitbucket        :
   codepen          :
