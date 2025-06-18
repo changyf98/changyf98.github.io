@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Yunfan Chang"
+excerpt: "Yunfan Chang"
 author_profile: true
 redirect_from: 
   - /about/
