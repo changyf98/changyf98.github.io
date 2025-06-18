@@ -7,10 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
+# Education
+* Ph.D. in Mathematics, [Tsinghua University](https://www.tsinghua.edu.cn/), 2025
 
-I am currently a Ph.D. student in the [Department of computational Mathematics](https://math.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), under the professor [Dinghui Yang](https://www.researchgate.net/profile/Dinghui-Yang). <br>
-I received my Bachelor's degree in [University of Science and Technology of China](http://www.ustc.edu.cn/
-) in Heifei, China, where I am a member of 2016 in School of Mathematics science. 
+Supervisors: Prof. [Dinghui Yang](https://baike.baidu.com/item/%E6%9D%A8%E9%A1%B6%E8%BE%89/5347265)
+
+* B.Sc. in Mathematics, [University of Science and Technology of China](http://www.ustc.edu.cn/
+), 2020
 
 # Research
 My research interests mainly lie in **Deep Learning for solving partial differential equations**, but also include convex optimazation, deep learning, partial differential numerical solutions and **quantitative trading**. <br>
