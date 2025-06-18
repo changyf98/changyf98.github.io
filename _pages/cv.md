@@ -13,11 +13,18 @@ redirect_from:
 Education
 ======
 * B.S. in School of Mathematical Science,University of Science and Technology of China, 2020
-* Ph.D in Department of computational Mathematics, Tsinghua University, 2025 (expected)
+* Ph.D in Department of computational Mathematics, Tsinghua University, 2025 
+
+Working Experience
+======
+* 2025.6 ~ Now: Quantitative Research
+  * High-frequency trading, 世纪前沿
+  * Duties included: High-frequency 
+  * Supervisor: Chen Lv
 
 Internship
 ======
-* 2023.7 ~ Now: Quantitative Research
+* 2023.7 ~ 2025.6: Quantitative Research
   * High-frequency trading, 世纪前沿
   * Duties included: High-frequency futures and crypto
   * Supervisor: Chen Lv
