@@ -23,12 +23,18 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
   <style>
-    .author__urls li a {
-  display: flex;
+.author__urls li a.author-link {
+  display: inline-flex;
   align-items: center;
   gap: 0.5em;
-  text-decoration: none;
-  color: inherit;
+  white-space: nowrap; /* 防止换行 */
+  vertical-align: middle;
+}
+
+.author__urls li a.author-link i {
+  font-size: 1em;
+  line-height: 1;
+  vertical-align: middle;
 }
   </style>
   {% if author.location %}
