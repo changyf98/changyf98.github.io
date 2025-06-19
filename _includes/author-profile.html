@@ -23,11 +23,13 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
   <style>
-    .author__urls li {
-      display: flex;
-      align-items: center;
-      gap: 0.5em;
-    }
+    .author__urls li a {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  text-decoration: none;
+  color: inherit;
+}
   </style>
   {% if author.location %}
     <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>{{ author.location }}</li>
