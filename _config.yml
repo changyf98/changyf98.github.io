@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Yunfan Chang"
-  avatar           : "/images/avata.png"
+  avatar           : "avata.png"
   bio              : "Quantitative Researcher"
   location         : "Shanghai, China"
   employer         :
