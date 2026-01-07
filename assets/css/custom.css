@@ -201,21 +201,77 @@ a:hover {
 
 /* Navigation Bar */
 .masthead {
-  background: var(--card-bg);
+  background: var(--card-bg) !important;
   backdrop-filter: blur(10px);
   border-bottom: 2px solid var(--border-glow);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
+.masthead__inner-wrap {
+  background: transparent !important;
+}
+
+.site-title,
+.site-title a {
+  color: var(--primary-color) !important;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+.greedy-nav {
+  background: transparent !important;
+}
+
 .greedy-nav a {
-  color: var(--text-primary);
+  color: var(--text-primary) !important;
   transition: all 0.3s ease;
+  font-weight: 500;
 }
 
 .greedy-nav a:hover,
 .greedy-nav .visible-links a:hover {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
   text-shadow: 0 0 8px rgba(0, 212, 255, 0.5);
+}
+
+.visible-links li {
+  background: transparent !important;
+}
+
+.visible-links a {
+  color: var(--text-primary) !important;
+}
+
+.visible-links a:hover {
+  color: var(--primary-color) !important;
+}
+
+/* Mobile menu button */
+.greedy-nav__toggle {
+  color: var(--text-primary) !important;
+  background: transparent !important;
+  border: 1px solid var(--primary-color);
+}
+
+.greedy-nav__toggle:hover {
+  color: var(--primary-color) !important;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+/* Hidden links dropdown */
+.hidden-links {
+  background: var(--card-bg) !important;
+  border: 1px solid var(--border-glow) !important;
+  box-shadow: var(--shadow-glow);
+}
+
+.hidden-links a {
+  color: var(--text-primary) !important;
+}
+
+.hidden-links a:hover {
+  background: rgba(0, 102, 204, 0.1) !important;
+  color: var(--primary-color) !important;
 }
 
 /* Awards Section Styling */
