@@ -1,8 +1,169 @@
-/* Custom styles for personal homepage */
+/* ============================================
+   QUANTITATIVE RESEARCHER THEME - TECH STYLE
+   ============================================ */
 
-/* Awards section styling */
+/* Color Variables - Tech Blue Theme */
+:root {
+  --primary-color: #00d4ff;
+  --secondary-color: #0066cc;
+  --accent-color: #00ffaa;
+  --dark-bg: #0a0e27;
+  --darker-bg: #060819;
+  --card-bg: rgba(20, 25, 45, 0.8);
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --border-glow: rgba(0, 212, 255, 0.3);
+  --shadow-glow: 0 0 20px rgba(0, 212, 255, 0.15);
+}
+
+/* Global Body Styling */
+body {
+  background: linear-gradient(135deg, var(--dark-bg) 0%, var(--darker-bg) 100%);
+  color: var(--text-primary);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Animated Background Gradient */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(circle at 20% 50%, rgba(0, 102, 204, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(0, 212, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 20%, rgba(0, 255, 170, 0.05) 0%, transparent 50%);
+  z-index: -1;
+  animation: gradientShift 20s ease infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+/* Main Content Area */
+.page__content,
+.archive,
+.sidebar {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-glow);
+  border-radius: 12px;
+  box-shadow: var(--shadow-glow);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Headings Style */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 2rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 80%;
+  background: linear-gradient(180deg, var(--primary-color), var(--accent-color));
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+/* Links Style */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-shadow: 0 0 8px rgba(0, 255, 170, 0.5);
+}
+
+/* Author Profile Sidebar */
+.sidebar .author__avatar {
+  border: 3px solid var(--primary-color);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.sidebar .author__avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 212, 255, 0.6);
+}
+
+.author__name {
+  color: var(--primary-color) !important;
+  font-size: 1.5rem !important;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+.author__bio {
+  color: var(--text-secondary) !important;
+  font-style: italic;
+}
+
+/* Social Icons */
+.author__urls .social-icons a {
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+}
+
+.author__urls .social-icons a:hover {
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+/* Navigation Bar */
+.masthead {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid var(--border-glow);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.greedy-nav a {
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.greedy-nav a:hover,
+.greedy-nav .visible-links a:hover {
+  color: var(--primary-color);
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.5);
+}
+
+/* Awards Section Styling */
 .awards-container {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 800px;
   margin: 20px auto;
   padding-left: 20px;
@@ -11,24 +172,168 @@
 .award-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  background: rgba(0, 102, 204, 0.05);
+  border-left: 3px solid var(--primary-color);
+  border-radius: 6px;
   position: relative;
   list-style-type: none;
+  transition: all 0.3s ease;
+}
+
+.award-item:hover {
+  background: rgba(0, 102, 204, 0.1);
+  transform: translateX(5px);
+  box-shadow: -5px 0 15px rgba(0, 212, 255, 0.2);
 }
 
 .award-item::before {
-  content: "•";
+  content: "▶";
   position: absolute;
-  left: -15px;
-  color: #333;
+  left: -8px;
+  color: var(--primary-color);
+  font-size: 0.8rem;
 }
 
 .award-name {
   flex: 1;
+  color: var(--text-primary);
+  font-weight: 500;
 }
 
 .award-year {
-  color: #666;
+  color: var(--accent-color);
   white-space: nowrap;
   margin-left: 20px;
+  font-weight: 600;
+  font-family: 'Courier New', monospace;
+}
+
+/* Publications Section */
+.page__content a[href*="doi"],
+.page__content a[href*="library.seg.org"] {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 8px 0;
+  background: rgba(0, 212, 255, 0.1);
+  border: 1px solid var(--primary-color);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.page__content a[href*="doi"]:hover,
+.page__content a[href*="library.seg.org"]:hover {
+  background: rgba(0, 212, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 212, 255, 0.3);
+}
+
+/* Education & Course Section Cards */
+.page__content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.page__content ul li {
+  padding: 10px 15px;
+  margin: 8px 0;
+  background: rgba(0, 102, 204, 0.05);
+  border-left: 3px solid var(--secondary-color);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.page__content ul li:hover {
+  background: rgba(0, 102, 204, 0.1);
+  transform: translateX(5px);
+}
+
+/* Code Blocks */
+code {
+  background: rgba(0, 212, 255, 0.1);
+  color: var(--accent-color);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  border: 1px solid var(--border-glow);
+}
+
+/* Buttons */
+.btn,
+.page__footer-follow .social-icons a {
+  background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+}
+
+.btn:hover,
+.page__footer-follow .social-icons a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 212, 255, 0.5);
+}
+
+/* Scroll to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 212, 255, 0.4);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 212, 255, 0.6);
+}
+
+/* Fade In Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page__content > * {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+
+  .award-item {
+    flex-direction: column;
+  }
+
+  .award-year {
+    margin-left: 0;
+    margin-top: 5px;
+  }
 }
