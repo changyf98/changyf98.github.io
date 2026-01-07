@@ -19,7 +19,6 @@ redirect_from:
   <div class="education-item">
     <h3>B.Sc. in Mathematics</h3>
     <p><a href="http://www.ustc.edu.cn/">University of Science and Technology of China</a> | 2016-2020</p>
-    <p>Outstanding Student Scholarship for four consecutive years</p>
   </div>
 </div>
 
