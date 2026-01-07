@@ -107,6 +107,16 @@ a:hover {
 }
 
 /* Author Profile Sidebar */
+.sidebar {
+  background: var(--card-bg) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-glow);
+  border-radius: 12px;
+  box-shadow: var(--shadow-glow);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
 .sidebar .author__avatar {
   border: 3px solid var(--primary-color);
   box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
@@ -131,7 +141,28 @@ a:hover {
   font-style: italic;
 }
 
-/* Social Icons */
+/* Author URLs and Social Icons */
+.author__urls-wrapper {
+  background: transparent !important;
+}
+
+.author__urls {
+  background: transparent !important;
+  color: var(--text-primary) !important;
+}
+
+.author__urls li {
+  color: var(--text-primary) !important;
+}
+
+.author__urls li a {
+  color: var(--text-primary) !important;
+}
+
+.author__urls li a:hover {
+  color: var(--primary-color) !important;
+}
+
 .author__urls .social-icons a {
   color: var(--text-secondary);
   transition: all 0.3s ease;
@@ -140,6 +171,32 @@ a:hover {
 .author__urls .social-icons a:hover {
   color: var(--primary-color);
   transform: translateY(-2px);
+}
+
+/* Follow Button */
+.btn--inverse {
+  background: linear-gradient(135deg, var(--secondary-color), var(--primary-color)) !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+  font-weight: 600;
+}
+
+.btn--inverse:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 212, 255, 0.5);
+  color: white !important;
+}
+
+/* Location and other info icons */
+.author__urls .fa,
+.author__urls .fas,
+.author__urls .fab,
+.author__urls i {
+  color: var(--primary-color) !important;
 }
 
 /* Navigation Bar */
