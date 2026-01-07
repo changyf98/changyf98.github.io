@@ -18,7 +18,6 @@ redirect_from:
   <div class="education-item">
     <h3>本科</h3>
     <p><a href="https://www.ustc.edu.cn/">中国科学技术大学</a><a href="https://math.ustc.edu.cn/">数学科学学院</a> | 2016-2020</p>
-    <p>本科连续四年学业优秀奖学金</p>
   </div>
 </div>
 
