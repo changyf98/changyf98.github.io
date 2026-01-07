@@ -9,10 +9,18 @@ redirect_from:
 
 ## 🎓 教育经历
 
-* **博士研究生** | [清华大学](https://www.tsinghua.edu.cn/)[数学系](https://math.tsinghua.edu.cn/) | 2020--2025
-  导师：[杨顶辉教授](https://baike.baidu.com/item/%E6%9D%A8%E9%A1%B6%E8%BE%89/5347265?fr=aladdin)
-
-* **本科** | [中国科学技术大学](https://www.ustc.edu.cn/)[数学科学学院](https://math.ustc.edu.cn/) | 2016--2020
+<div class="education-section">
+  <div class="education-item">
+    <h3>博士研究生</h3>
+    <p><a href="https://www.tsinghua.edu.cn/">清华大学</a><a href="https://math.tsinghua.edu.cn/">数学系</a> | 2020-2025</p>
+    <p>导师：<a href="https://baike.baidu.com/item/%E6%9D%A8%E9%A1%B6%E8%BE%89/5347265?fr=aladdin">杨顶辉教授</a></p>
+  </div>
+  <div class="education-item">
+    <h3>本科</h3>
+    <p><a href="https://www.ustc.edu.cn/">中国科学技术大学</a><a href="https://math.ustc.edu.cn/">数学科学学院</a> | 2016-2020</p>
+    <p>本科连续四年学业优秀奖学金</p>
+  </div>
+</div>
 
 ## 🔬 研究方向
 

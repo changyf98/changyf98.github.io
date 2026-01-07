@@ -10,10 +10,18 @@ redirect_from:
 
 ## 🎓 Education
 
-* **Ph.D. in Mathematics** | [Tsinghua University](https://www.tsinghua.edu.cn/) | 2025
-  Supervisor: Prof. [Dinghui Yang](https://baike.baidu.com/item/%E6%9D%A8%E9%A1%B6%E8%BE%89/5347265)
-
-* **B.Sc. in Mathematics** | [University of Science and Technology of China](http://www.ustc.edu.cn/) | 2020
+<div class="education-section">
+  <div class="education-item">
+    <h3>Ph.D. in Mathematics</h3>
+    <p><a href="https://www.tsinghua.edu.cn/">Tsinghua University</a> | 2020-2025</p>
+    <p>Supervisor: Prof. <a href="https://baike.baidu.com/item/%E6%9D%A8%E9%A1%B6%E8%BE%89/5347265">Dinghui Yang</a></p>
+  </div>
+  <div class="education-item">
+    <h3>B.Sc. in Mathematics</h3>
+    <p><a href="http://www.ustc.edu.cn/">University of Science and Technology of China</a> | 2016-2020</p>
+    <p>Outstanding Student Scholarship for four consecutive years</p>
+  </div>
+</div>
 
 ## 🔬 Research
 
