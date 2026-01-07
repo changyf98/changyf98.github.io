@@ -403,7 +403,7 @@ a:hover {
   font-weight: 600;
 }
 
-.education-item p:last-of-type {
+.education-item p:last-of-type:not(:first-of-type) {
   color: var(--text-secondary);
   font-style: italic;
   font-size: 0.9rem;
