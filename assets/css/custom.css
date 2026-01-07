@@ -400,8 +400,23 @@ a:hover {
 
 /* Publications Section */
 .page__content a[href*="doi"],
-.page__content a[href*="library.seg.org"] {
-  display: inline-block;
+.page__content a[href*="library.seg.org"],
+.page__content a[href*="manu39.magtech.com.cn"],
+.page__content a[href*="en.dzkx.org"] {
+  display: inline-block !important;
+  padding: 8px 16px;
+  margin: 8px 0;
+  background: rgba(0, 212, 255, 0.1);
+  border: 1px solid var(--primary-color);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.page__content p > a[href*="doi"],
+.page__content p > a[href*="library.seg.org"],
+.page__content p > a[href*="manu39.magtech.com.cn"],
+.page__content p > a[href*="en.dzkx.org"] {
+  display: inline-block !important;
   padding: 8px 16px;
   margin: 8px 0;
   background: rgba(0, 212, 255, 0.1);
@@ -411,7 +426,9 @@ a:hover {
 }
 
 .page__content a[href*="doi"]:hover,
-.page__content a[href*="library.seg.org"]:hover {
+.page__content a[href*="library.seg.org"]:hover,
+.page__content a[href*="manu39.magtech.com.cn"]:hover,
+.page__content a[href*="en.dzkx.org"]:hover {
   background: rgba(0, 212, 255, 0.2);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 212, 255, 0.3);
