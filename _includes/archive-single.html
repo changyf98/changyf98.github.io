@@ -32,6 +32,11 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      {% if title contains "(open)" or title contains "(Open)" %}
+        <span class="problem-badge badge-open">🔓 Open</span>
+      {% elsif post.excerpt contains "Answer:" or post.content contains "Answer:" %}
+        <span class="problem-badge badge-solved">✓ Solved</span>
+      {% endif %}
     </h2>
     
     {% if post.read_time %}
@@ -50,6 +55,14 @@
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% endif %}
+
+    {% if post.tags %}
+    <div class="tags">
+      {% for tag in post.tags %}
+        <span class="tag">#{{ tag }}</span>
+      {% endfor %}
+    </div>
     {% endif %}
     
     {% if post.citation and post.paperurl %}
