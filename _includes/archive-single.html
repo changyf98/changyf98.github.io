@@ -32,10 +32,19 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-      {% if title contains "(open)" or title contains "(Open)" %}
+      {% if post.status == "open" or title contains "(open)" or title contains "(Open)" %}
         <span class="problem-badge badge-open">🔓 Open</span>
-      {% elsif post.excerpt contains "Answer:" or post.content contains "Answer:" %}
+      {% elsif post.status == "solved" or post.excerpt contains "Answer:" or post.content contains "Answer:" %}
         <span class="problem-badge badge-solved">✓ Solved</span>
+      {% endif %}
+      {% if post.difficulty %}
+        {% if post.difficulty == "easy" %}
+          <span class="difficulty-badge difficulty-easy">★ Easy</span>
+        {% elsif post.difficulty == "medium" %}
+          <span class="difficulty-badge difficulty-medium">★★ Medium</span>
+        {% elsif post.difficulty == "hard" %}
+          <span class="difficulty-badge difficulty-hard">★★★ Hard</span>
+        {% endif %}
       {% endif %}
     </h2>
     

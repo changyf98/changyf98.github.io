@@ -688,6 +688,37 @@ code {
   }
 }
 
+/* Difficulty badges */
+.difficulty-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.difficulty-easy {
+  background: linear-gradient(135deg, #4ade80, #22c55e);
+  color: white;
+  box-shadow: 0 0 10px rgba(74, 222, 128, 0.4);
+}
+
+.difficulty-medium {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: white;
+  box-shadow: 0 0 10px rgba(251, 191, 36, 0.4);
+}
+
+.difficulty-hard {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.4);
+}
+
 /* Tags display */
 .archive__item .tags {
   margin-top: 1rem;
