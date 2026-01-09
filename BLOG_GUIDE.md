@@ -46,6 +46,7 @@ date: YYYY-MM-DD
 permalink: /posts/YYYY/MM/article-slug/
 status: open          # 可选：open 或 solved
 difficulty: medium    # 可选：easy, medium, 或 hard
+answer: "答案内容"    # 可选：问题的答案（solved 状态时建议填写）
 tags:
   - 标签1
   - 标签2
@@ -74,8 +75,25 @@ Front Matter 之后，使用 Markdown 语法编写文章内容。
 |------|--------|------|------|
 | `status` | `open` 或 `solved` | 问题状态 | `status: open` |
 | `difficulty` | `easy`, `medium`, `hard` | 难度等级 | `difficulty: hard` |
+| `answer` | 文本 | 问题答案（solved 时显示在独立卡片中） | `answer: "5777"` |
 | `tags` | 标签列表 | 文章标签 | 见下文示例 |
 | `excerpt` | 文本 | 文章摘要（可选） | `excerpt: "这是摘要"` |
+
+## 💡 答案显示 (Answer Display)
+
+当文章状态为 `solved` 时，可以在 front matter 中添加 `answer` 字段，答案会显示在独立的绿色卡片中：
+
+```markdown
+---
+status: solved
+answer: "5777"
+---
+```
+
+**显示效果**：
+- **问题卡片**（蓝色）：显示问题描述
+- **答案卡片**（绿色）：显示 "💡 Answer" 标题和答案内容
+- 两个卡片独立显示，视觉层次清晰
 
 ## 🏷️ 状态徽章 (Status Badges)
 
@@ -139,6 +157,7 @@ date: 2024-05-19
 permalink: /posts/2024/05/goldbach-other-conjecture/
 status: solved
 difficulty: medium
+answer: "5777"
 tags:
   - number theory
   - prime numbers
@@ -159,44 +178,11 @@ $$
 最终这个猜想被推翻了。
 
 **问题**：不能写成一个素数和一个平方的两倍之和的最小奇合数是多少？
-
-## 解答
-
-通过编程验证，答案是：
-
-Answer: 5777
-
-## 代码实现
-
-```python
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
-
-def check_goldbach_other(n):
-    for p in range(2, n):
-        if is_prime(p):
-            remainder = n - p
-            if remainder % 2 == 0:
-                square_root = (remainder / 2) ** 0.5
-                if square_root == int(square_root):
-                    return True
-    return False
-
-# 寻找反例
-n = 9
-while check_goldbach_other(n):
-    n += 2
-    if n % 2 == 0:
-        n += 1
-
-print(f"Answer: {n}")
 ```
-```
+
+**说明**：
+- 问题描述会显示在蓝色卡片中
+- 答案 "5777" 会显示在独立的绿色卡片中，标题为 "💡 Answer"
 
 ### 示例 2：未解决的困难问题
 
