@@ -84,14 +84,3 @@
 
   </article>
 </div>
-
-{% if post.answer %}
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item archive__item--answer" itemscope itemtype="http://schema.org/CreativeWork">
-    <h3 class="answer-title">💡 Answer</h3>
-    <div class="answer-content">
-      <p>{{ post.answer }}</p>
-    </div>
-  </article>
-</div>
-{% endif %}

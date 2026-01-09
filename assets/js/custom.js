@@ -207,3 +207,35 @@
   }
 
 })();
+
+  // Answer Toggle Functionality
+  function setupAnswerToggle() {
+    const toggleBtn = document.getElementById('answerToggleBtn');
+    const answerContainer = document.getElementById('answerContainer');
+    
+    if (toggleBtn && answerContainer) {
+      toggleBtn.addEventListener('click', function() {
+        const isExpanded = answerContainer.classList.contains('show');
+        
+        if (isExpanded) {
+          // Hide answer
+          answerContainer.classList.remove('show');
+          toggleBtn.classList.remove('expanded');
+          toggleBtn.querySelector('.toggle-icon').textContent = '🔍';
+          toggleBtn.querySelector('.toggle-text').textContent = '查看答案';
+        } else {
+          // Show answer
+          answerContainer.classList.add('show');
+          toggleBtn.classList.add('expanded');
+          toggleBtn.querySelector('.toggle-icon').textContent = '👁️';
+          toggleBtn.querySelector('.toggle-text').textContent = '隐藏答案';
+        }
+      });
+    }
+  }
+
+  // Initialize on page load
+  initParticles();
+  setupBackToTop();
+  setupSmoothScroll();
+  setupAnswerToggle();

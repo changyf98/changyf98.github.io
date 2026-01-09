@@ -64,6 +64,23 @@ layout: default
         {% include page__taxonomy.html %}
       </footer>
 
+      {% if page.answer %}
+      <div class="answer-section">
+        <button class="answer-toggle-btn" id="answerToggleBtn">
+          <span class="toggle-icon">🔍</span>
+          <span class="toggle-text">查看答案</span>
+        </button>
+        <div class="answer-container" id="answerContainer">
+          <div class="answer-card">
+            <h3 class="answer-title">💡 Answer</h3>
+            <div class="answer-content">
+              <p>{{ page.answer }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
       {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
