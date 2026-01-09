@@ -385,7 +385,7 @@ git push origin master
 ### 4. 等待部署
 
 GitHub Pages 会自动构建网站，通常需要 1-3 分钟。完成后访问：
-- 博客列表页：https://changyf98.github.io/year-archive/
+- 博客列表页：https://changyf98.github.io/blog/
 - 具体文章：根据 `permalink` 设置的路径
 
 ## 🎨 样式预览
