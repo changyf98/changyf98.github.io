@@ -198,20 +198,11 @@
       const toggleBtn = document.getElementById('answerToggleBtn');
       const answerContainer = document.getElementById('answerContainer');
 
-      console.log('Answer Toggle Setup:', {
-        toggleBtn: toggleBtn,
-        answerContainer: answerContainer
-      });
-
       if (toggleBtn && answerContainer) {
-        console.log('Elements found, adding event listener');
-
         toggleBtn.addEventListener('click', function(e) {
           e.preventDefault();
-          console.log('Button clicked!');
 
           const isExpanded = answerContainer.classList.contains('show');
-          console.log('Is expanded:', isExpanded);
 
           if (isExpanded) {
             // Hide answer
@@ -227,8 +218,6 @@
             toggleBtn.querySelector('.toggle-text').textContent = '隐藏答案';
           }
         });
-      } else {
-        console.log('Answer toggle elements not found');
       }
     }, 100);
   }
