@@ -191,32 +191,15 @@
     }
   }
 
-  // Initialize all functions when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
-
-  function init() {
-    createParticles();
-    setupBackToTop();
-    setupSmoothScroll();
-    // setupScrollAnimations(); // Commented out as CSS animation is already applied
-    // setupTypingEffect(); // Optional: uncomment if you want typing effect
-  }
-
-})();
-
   // Answer Toggle Functionality
   function setupAnswerToggle() {
     const toggleBtn = document.getElementById('answerToggleBtn');
     const answerContainer = document.getElementById('answerContainer');
-    
+
     if (toggleBtn && answerContainer) {
       toggleBtn.addEventListener('click', function() {
         const isExpanded = answerContainer.classList.contains('show');
-        
+
         if (isExpanded) {
           // Hide answer
           answerContainer.classList.remove('show');
@@ -234,8 +217,20 @@
     }
   }
 
-  // Initialize on page load
-  initParticles();
-  setupBackToTop();
-  setupSmoothScroll();
-  setupAnswerToggle();
+  // Initialize all functions when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  function init() {
+    createParticles();
+    setupBackToTop();
+    setupSmoothScroll();
+    setupAnswerToggle();
+    // setupScrollAnimations(); // Commented out as CSS animation is already applied
+    // setupTypingEffect(); // Optional: uncomment if you want typing effect
+  }
+
+})();
