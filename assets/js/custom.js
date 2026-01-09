@@ -193,28 +193,44 @@
 
   // Answer Toggle Functionality
   function setupAnswerToggle() {
-    const toggleBtn = document.getElementById('answerToggleBtn');
-    const answerContainer = document.getElementById('answerContainer');
+    // Use setTimeout to ensure DOM is fully loaded
+    setTimeout(function() {
+      const toggleBtn = document.getElementById('answerToggleBtn');
+      const answerContainer = document.getElementById('answerContainer');
 
-    if (toggleBtn && answerContainer) {
-      toggleBtn.addEventListener('click', function() {
-        const isExpanded = answerContainer.classList.contains('show');
-
-        if (isExpanded) {
-          // Hide answer
-          answerContainer.classList.remove('show');
-          toggleBtn.classList.remove('expanded');
-          toggleBtn.querySelector('.toggle-icon').textContent = '🔍';
-          toggleBtn.querySelector('.toggle-text').textContent = '查看答案';
-        } else {
-          // Show answer
-          answerContainer.classList.add('show');
-          toggleBtn.classList.add('expanded');
-          toggleBtn.querySelector('.toggle-icon').textContent = '👁️';
-          toggleBtn.querySelector('.toggle-text').textContent = '隐藏答案';
-        }
+      console.log('Answer Toggle Setup:', {
+        toggleBtn: toggleBtn,
+        answerContainer: answerContainer
       });
-    }
+
+      if (toggleBtn && answerContainer) {
+        console.log('Elements found, adding event listener');
+
+        toggleBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          console.log('Button clicked!');
+
+          const isExpanded = answerContainer.classList.contains('show');
+          console.log('Is expanded:', isExpanded);
+
+          if (isExpanded) {
+            // Hide answer
+            answerContainer.classList.remove('show');
+            toggleBtn.classList.remove('expanded');
+            toggleBtn.querySelector('.toggle-icon').textContent = '🔍';
+            toggleBtn.querySelector('.toggle-text').textContent = '查看答案';
+          } else {
+            // Show answer
+            answerContainer.classList.add('show');
+            toggleBtn.classList.add('expanded');
+            toggleBtn.querySelector('.toggle-icon').textContent = '👁️';
+            toggleBtn.querySelector('.toggle-text').textContent = '隐藏答案';
+          }
+        });
+      } else {
+        console.log('Answer toggle elements not found');
+      }
+    }, 100);
   }
 
   // Initialize all functions when DOM is ready
