@@ -61,7 +61,13 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% assign content_text = post.excerpt | markdownify %}
+      {% if content_text contains "Answer:" %}
+        {% assign parts = content_text | split: "Answer:" %}
+        <p class="archive__item-excerpt" itemprop="description">{{ parts[0] }}</p>
+      {% else %}
+        <p class="archive__item-excerpt" itemprop="description">{{ content_text }}</p>
+      {% endif %}
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
@@ -84,3 +90,20 @@
 
   </article>
 </div>
+
+{% if post.excerpt %}
+  {% assign content_text = post.excerpt | markdownify %}
+  {% if content_text contains "Answer:" %}
+    {% assign parts = content_text | split: "Answer:" %}
+    {% if parts[1] %}
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item archive__item--answer" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="answer-title">💡 Answer</h3>
+    <div class="answer-content">
+      {{ parts[1] }}
+    </div>
+  </article>
+</div>
+    {% endif %}
+  {% endif %}
+{% endif %}

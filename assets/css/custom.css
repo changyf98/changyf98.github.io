@@ -615,6 +615,43 @@ code {
   border-color: var(--primary-color);
 }
 
+/* Answer card styling */
+.archive__item--answer {
+  background: rgba(0, 255, 170, 0.05);
+  border: 1px solid rgba(0, 255, 170, 0.3);
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.archive__item--answer::before {
+  background: linear-gradient(180deg, var(--accent-color), var(--primary-color));
+  box-shadow: 0 0 8px var(--accent-color);
+}
+
+.archive__item--answer:hover {
+  background: rgba(0, 255, 170, 0.08);
+  border-color: var(--accent-color);
+}
+
+.answer-title {
+  color: var(--accent-color) !important;
+  font-size: 1.2rem !important;
+  margin: 0 0 1rem 0 !important;
+  text-shadow: 0 0 8px rgba(0, 255, 170, 0.3);
+  font-weight: 600;
+}
+
+.answer-content {
+  color: var(--text-primary);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.answer-content p {
+  margin: 0;
+  color: var(--text-primary);
+}
+
 /* Blog post title */
 .archive__item-title {
   color: var(--primary-color) !important;
